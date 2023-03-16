@@ -1,0 +1,126 @@
+@media only screen and (max-width: 375px){
+    .main_div{
+        width: 370px;
+        padding: 0;        
+    }
+    header{
+        width: 370px;
+        display: flex;
+        justify-content: space-between;
+        padding: 19px 24px;
+    }
+    #responsive_transparent{
+        width: 375px;
+        background: rgba(0, 0, 0, 0.75);
+        height: 940px;
+        position: absolute;
+        display: none;
+    }
+    .responsive_burger{
+        width: 250px;
+        height: 940px;
+        background-color: var(--White);
+        display: flex;
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        margin: 0;
+        padding: 25px;
+    }
+    .responsive_list{
+        display: flex;
+        flex-direction: column;    
+        margin-top: 54px;
+        width: 300px;
+    }
+    .responsive_list li{
+        margin-bottom: 20px;
+        
+    }
+    .responsive_list li a{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+        
+    }
+    .responsive_burger{
+        display: block;
+    }
+    .header_left{
+        width: 250px;
+        display: flex;
+        justify-content: space-between;       
+        align-items: center;
+    }
+    ul{
+        display: none;
+    }
+    .burger_menu{
+        display: block;
+
+    }
+    #counter_num{
+        width: 21.82px;
+        height: 20px;
+    }
+    .avatar{
+        width: 24px;
+        height: 24px;
+    }
+    main{
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .main_img{
+        width: 100%;
+        height: 300px;
+        border-radius: 0;
+    }
+    .img_collection{
+        display: none;
+    }
+    .product_text{
+        width: 327px;
+        margin: 0 auto;
+    }
+    .price{
+        width: 327px;
+        display: flex;
+        margin: 0;
+    }
+    .left_div {
+        width: 327px;
+        margin: 0 auto;
+    }
+    .price_div{
+        display: flex;
+        align-items: center;
+        margin-top: 35px;
+    }
+    .new_price{
+        display: flex;
+        align-items: center;
+
+    }
+    .cart{
+        width: 327px;
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width: 327px;
+        margin: 0 auto;
+    }
+    #add_to_cart_btn{
+        width: 327px;
+        margin: 10px auto;
+    }
+    #cart_holder{
+        left: 8px;
+        top: 76px;
+    }
+}
