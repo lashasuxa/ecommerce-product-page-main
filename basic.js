@@ -7,9 +7,11 @@ function cartDisplay() {
   if (!cart_displayed) {
     cart_holder.style.display = "block";
     cart_displayed = true;
+    console.log("displayed");
   } else {
     cart_holder.style.display = "none";
     cart_displayed = false;
+    console.log("hidden");
   }
 }
 
@@ -72,3 +74,4 @@ var close_menu = document.getElementById("close_menu");
 close_menu.onclick = () => {
   responsive_transparent.style.display = "none";
 };
+
